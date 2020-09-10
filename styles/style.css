@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+input{
+    border: 1px solid #A70000;
+    border-radius: 5px;
+    height: 30px;
+    width: 190px;
+}
+.boton-play{
+    background-color: #A70000;
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: #FF9900;
+}
+
+.boton-add{
+    background-color: #FF9900;
+    width: 90px;
+    height: 40px;
+    border: none;
+    color: #000;
+}
+
+.boton-add:hover{
+    background-color: #A70000;
+    color: rgb(255, 255, 255);
+}
+
+
+.price-add{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price{
+    color: #0089A7;
+    font-size: 20px;
+}
+
+.product{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.5px solid #E8E8E8;
+    border-radius: 10px;
+    margin: 10px 10px;
+    box-shadow: 2px 20px 29px -27px rgba(0,0,0,0.75);
+}
+
+.navbar{
+    background-color: #A70000;
+    height: 20rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: #A70000;
+    height: 4rem;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-menu{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #A70000;
+}
+
+.item-icon{
+    width: 60px;
+    justify-content: center;
+}
+
+.img-logo{
+    width: 100%;
+    height: 190px;
+    background-image: url(/img/header-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.encabezado{
+   width: 70%;
+   margin: 0px auto;
+   text-align: center;
+   margin-top: 4rem;
+
+}
+
+.formulario{
+   width: 40%;
+   margin: 40px auto;
+   display: flex;
+   align-content: center;
+   justify-content: center;  
+}
+
+.order-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 16px;
+    color: #A70000;
+    font-weight: 800;
+}
+
+.texto{
+    font-size: 14px;
+    color: #9A9999;
+}
+
+.label{
+    font-size: 12px;
+    color: #9A9999;
+    margin-bottom: 8px;
+}
+
+.in-title{
+text-align: center;
+font-size: 11px;
+margin-top: 25px;
+}
+
+.title-product{
+    font-size: 16px;
+    color: #A70000;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.description1{
+    color: #4B4A4A;
+}
+
+.fas{
+color: #E8E8E8;
+font-size: 30px;
+}
