@@ -3,7 +3,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-input{
+.input-text{
     border: 1px solid #A70000;
     border-radius: 5px;
     height: 30px;
@@ -39,8 +39,8 @@ input{
 }
 
 .price{
-    color: #0089A7;
     font-size: 20px;
+    color: #0089A7;
 }
 
 .product{
@@ -52,6 +52,18 @@ input{
     border-radius: 10px;
     margin: 10px 10px;
     box-shadow: 2px 20px 29px -27px rgba(0,0,0,0.75);
+  
+    
+}
+
+.acompanamientos{
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+}
+
+.abc{
+    width: 70%;
 }
 
 .navbar{
@@ -155,3 +167,4 @@ margin-top: 25px;
 color: #E8E8E8;
 font-size: 30px;
 }
+
