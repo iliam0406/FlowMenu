@@ -58,10 +58,12 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: -10px;
+   
 }
 
 .abc{
     width: 70%;
+    background-color: aqua;
 }
 
 
