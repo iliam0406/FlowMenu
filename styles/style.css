@@ -3,6 +3,16 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.logo{
+    width: 282px;
+    height: 91px;
+}
+
+.logo-min{
+    width: 137px;
+    height: 40px; 
+}
+
 .input-text{
     border: 1px solid #A70000;
     border-radius: 5px;
@@ -209,6 +219,10 @@ font-size: 30px;
     border-radius: 10px;
     padding: 10px 10px;
     box-shadow: 2px 20px 29px -27px rgba(0,0,0,0.75);  
+}
+
+.box:hover{
+    border: 1px solid #FF9900;
 }
 
 .i1{
