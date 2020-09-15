@@ -334,3 +334,52 @@ font-size: 30px;
 .btn-cont:focus{
     outline: none;
 }
+
+/* Pedido */
+
+.pedidos-titulo{
+    text-align: left;
+    width: 90%;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.colum-pedidos{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 10% 40% 20% 20% 10%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    font-weight: 800;
+    color: #A70000;
+}
+
+.list-pedidos{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 10% 40% 20% 20% 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-weight: 400;
+}
+
+.list-pedidos span{
+    color: #A70000;
+    font-weight: 800;
+}
+
+.cuerpo-pedidos{
+    position: absolute;
+    margin-bottom: 70px;
+    margin-top: 280px;
+    z-index: -1;
+    width: 100%;
+}
+
+.total-presumen{
+    
+}
